@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>adventure game</title>
+  <link rel="stylesheet" type="text/css" href="game.css">
+</head>
+
+<body id="body">
+
+
+<audio src="sfx/leather_inventory.wav" id="inventoryopensfx"></audio>
+<audio src="sfx/metal-clash.wav" id="metalclash"></audio>
+
+
+
+<a id="inventorybag"
+onclick="document.getElementById('inventoryopensfx').play();">
+     <img src="img/inventory.png" id="inventory">
+</a>
+
+
+<a onclick="document.getElementById('metalclash').play();">
+     <img src="img/knife.png" id="knife">
+</a>
+
+<div id="inventoryBox">
+  <img src="img/knife.png" id="knifeInventory">
+
+</div>
+
+
+
+
+
+<h1 id="title"> Welcome </h1>
+
+<div id="picture"></div>
+
+<div class="buttons">
+  <button id="button_1">
+  </button>
+
+  <button id="button_2">
+  </button>
+
+  <button id="button_3">
+  </button>
+
+  <button id="questionbutton"> <img src="img/questionmark.png" alt="">
+  </button>
+
+</div>
+
+<div id="intro">
+
+
+<p id="wit">
+  You woke up after a long coma, no idea what happened, how many years have passed. After a few minutes of having a heavy headache, everything starts to come back to
+  you, your name; Rick Grimes. Immediately after recieving back your memory you think of your family, your son and wife. Where could they possibly be?
+  Where is anyone for that matter...
+
+</p>
+
+
+</div>
+
+<div id="hintbox">
+<h1 id="hint"> Hint </h1>
+<p id="hinttext"> Some objects can be examined by pressing on the blue question mark, giving you information which may benefit you in a certain way.</p>
+<button id="closehint">
+  Close
+</button>
+</div>
+
+<div id="questionbox">
+  <p id="questiontext">Test </p>
+  <button id="questionclose">Understood</button>
+</div>
+
+
+
+<script type="text/javascript" src="gamejs.js"> </script>
+
+</body>
+
+</html>

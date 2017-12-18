@@ -1,0 +1,168 @@
+* {
+  transition: 0.3s ease;
+}
+
+body {
+  background-size: cover;
+  background-position: cover cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  margin: 15px;
+  background-image: url("img/intro.png");
+
+}
+
+
+#inventory {
+  position: absolute;
+  left: 1760px;
+  height: 90px;
+}
+
+#knife {
+  height: 85px;
+  position: absolute;
+  top:465px;
+  left: 1360px;
+}
+
+#knife:hover  {
+  background-color: white;
+}
+
+#knifeInventory:hover{
+  background-color: black;
+}
+
+#knifeInventory {
+  height: 69px;
+  width: 70px;
+  background-color: white;
+  position: relative;
+  left: 2px;
+  top: 2px;
+
+}
+
+
+#inventoryBox {
+  height: 361px;
+  width: 217px;
+  position: absolute;
+  top: 167px;
+  left: 1676px;
+  background-color: blue;
+  background-image: url("img/inventoryinside.jpg");
+  display: none;
+
+}
+
+
+#start {
+  position: relative;
+  height: 35px;
+  width: 50px;
+}
+
+#wit {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 500px;
+  height: 200px;
+  background-color: black;
+  opacity: .5;
+}
+
+#questionbutton {
+  background-color: transparent;
+  border: 0px;
+  outline: 0px;
+  position:absolute;
+  top: 390px;
+  left: 467px;
+}
+
+#questionbutton img {
+  width: 50px;
+}
+
+#questionbox {
+  width: 200px;
+  height: 135px;
+  display: none;
+  position: absolute;
+  top: 450px;
+  left: 475px;
+  background-color: rgba(0,0,255,.5);;
+}
+
+  #questionclose {
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-left: 50px;
+    background-color: tomato;
+  }
+
+  #questiontext {
+    margin: 1px;
+    font-family: sans-serif;
+  }
+
+#button_1, #button_2,#button_3{
+height: 75px;
+width: 75px;
+background-color:red;
+color:white;
+font-size: 20px;
+border: none;
+}
+
+#button_1:hover, #button_2:hover, #button_3:hover{
+background-color: white;
+color: black;
+}
+
+
+#startLevel {
+  background-image: url("img/achtergrond1.jpg")
+}
+
+
+
+
+#hintbox {
+  width: 350px;
+  height: 360px;
+  background-color: rgba(0,0,0,.8);
+  position: absolute;
+  top:320px;
+  left:700px;
+
+}
+
+
+#hint {
+  text-align: center;
+}
+
+#hinttext {
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+#closehint{
+height: 32px;
+width: 235px;
+background-color:tomato;
+color:white;
+font-size: 20px;
+border: none;
+position: absolute;
+left: 50px;
+}
