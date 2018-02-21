@@ -13,8 +13,9 @@
 
 <audio src="sfx/leather_inventory.wav" id="inventoryopensfx"></audio>
 <audio src="sfx/metal-clash.wav" id="metalclash"></audio>
-
-
+<audio src="sfx/gun.wav" id="gunsfx"></audio>
+<audio src="sfx/door.wav" id="doorfx"></audio>
+<audio src="sfx/theme.wav" id="themefx"></audio>
 
 <a id="inventorybag"
 onclick="document.getElementById('inventoryopensfx').play();">
@@ -26,8 +27,14 @@ onclick="document.getElementById('inventoryopensfx').play();">
      <img src="img/knife.png" id="knife">
 </a>
 
+<a onclick="document.getElementById('gunsfx').play();">
+     <img src="img/pythonrevolver.png" id="revolver">
+</a>
+
 <div id="inventoryBox">
   <img src="img/knife.png" id="knifeInventory">
+  <img src="img/baseballbatt.png" id="baseballbatt">
+  <img src="img/pythonrevolver.png" id="revolverInventory">
 
 </div>
 
@@ -79,6 +86,8 @@ onclick="document.getElementById('inventoryopensfx').play();">
   <p id="questiontext">Test </p>
   <button id="questionclose">Understood</button>
 </div>
+
+
 
 
 
